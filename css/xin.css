@@ -1,0 +1,492 @@
+body {
+    background-color: papayawhip;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1204px;
+
+}
+
+.hadder {
+    width: 100%;
+    line-height: 100px;
+    background-color: #BEBEBE;
+}
+
+.hadder .nav-0 {
+    float: left;
+
+
+}
+
+
+.hadder .nav-1 {
+    float: left;
+}
+
+.hadder .link {
+    float: right;
+}
+
+.hadder .link a {
+    margin-right: 25px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+
+.hadder .nav-2 {
+    float: left;
+    margin-left: 80px;
+
+}
+
+.hadder .nav-0 {
+    padding-top: 20px;
+    height: 80px;
+}
+
+.hadder .nav-0 img {
+
+    margin-right: 40px;
+
+}
+
+.hadder .nav-1 a {
+    font-size: 18px;
+    margin-left: 50px;
+    color: black;
+}
+
+.hadder .nav-2 em {
+    background: url(../img/2.png) no-repeat center center;
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.hadder .nav-2 span {
+    display: inline-block;
+    margin-right: 18px;
+    font-size: 15px;
+}
+
+
+.hadder .nav-2 span:hover em {
+    background: url(../img/3.png) no-repeat center center;
+    width: 52px;
+    height: 52px;
+
+}
+
+.hadder .nav-2 span:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.hadder .nav-2 .car {
+    display: none;
+}
+
+.hadder .nav-2:hover .car {
+    display: block;
+}
+
+.hadder .nav-2 {
+    position: relative;
+}
+
+.hadder .nav-2 .car {
+    position: absolute;
+    left: -63px;
+    width: 300px;
+    padding: 10px 15px 15px 15px;
+    background-color: white;
+    z-index: 9999;
+}
+
+.car h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 55px;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.car h3 span {
+    font-size: 12px;
+    line-height: 55px;
+    float: right;
+    color: #6C6C6C;
+}
+
+.car .carMain i {
+    display: block;
+    background: url(../img/iconBg.png) no-repeat center center #7B7B7B;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin: 45px auto 15px;
+}
+
+.car .carMain p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+.car .carMain .pBox {
+    width: 300px;
+    height: 70px;
+
+}
+
+.car .carMain .pBox a {
+    font-size: 13px;
+    color: powderblue;
+    display: inline-block;
+    border-top: 1px solid #ADADAD;
+    margin: 0 auto;
+    line-height: 70px;
+}
+
+.car .carFooder {
+    border-top: 1px solid #ADADAD;
+    width: 300px;
+    padding-top: 30px;
+}
+
+.car .carFooder span {
+    font-size: 15px;
+    color: #7B7B7B;
+    line-height: 40px;
+    float: left;
+
+
+}
+
+.car .carFooder a {
+
+    float: right;
+    line-height: 40px;
+    margin-right: 0;
+    background-color: cornflowerblue;
+    border: 1px solid blanchedalmond;
+    width: 80px;
+    text-align: center;
+    border-radius: 8%;
+}
+
+
+
+
+
+
+
+/* 中间部分 */
+
+/* 大背景部分 */
+.body ul li {
+    display: none;
+}
+
+.body ul .block {
+    display: block;
+}
+
+
+/* 左边部分 */
+.body {
+    position: relative;
+}
+
+.body .divBox {
+    position: absolute;
+    top: 0;
+}
+
+.body ol {
+    background-color: rgba(2, 0, 0, 0.2);
+    height: 360px;
+    width: 242px;
+}
+
+.body ol li .hidden {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 300px;
+    height: 360px;
+    background: orange;
+}
+
+.body ol li {
+    width: 242px;
+    text-align: center;
+
+}
+
+.body ol li a {
+    height: 71px;
+    border-bottom: 1px solid #a1a1a1;
+    line-height: 71px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.body ol li:hover .hidden {
+    display: inline-block;
+
+}
+
+.body .hidden .backImg {
+    background: url(../img/PC端设计图-恢复的_03.jpg) no-repeat center center;
+    width: 573px;
+    height: 360px;
+
+}
+
+.body .hidden .backImg dd,
+.body .hidden .backImg dt {
+    font-size: 16px;
+    color: #0b0b0b;
+    font-weight: normal;
+    text-align: left;
+    line-height: 40px;
+}
+
+/* 小图片部分 */
+.info {
+    height: 800px;
+
+
+}
+
+.info .images {
+    width: 251px;
+    height: 183px;
+    position: relative;
+}
+
+.info .text {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #fff;
+    line-height: 20px;
+    width: 251px;
+    transition: bottom 0.5s;
+
+
+}
+
+.info .text:hover {
+    bottom: 35px;
+}
+
+
+
+.info .text:hover {
+    cursor: pointer;
+}
+
+.info .mony {
+    width: 251px;
+    position: relative;
+    bottom: 30px;
+    left: 0;
+    padding-bottom: 15px;
+    z-index: 5;
+    background-color: white;
+
+}
+
+.info .mony .left {
+    color: red;
+    float: left;
+    font-size: 14px;
+}
+
+.info .mony .right {
+    float: right;
+    font-size: 14px;
+}
+
+/* 页脚部分 */
+.fooder {
+    width: 100%;
+    background-color: #2e2e2e;
+
+
+}
+
+.fooder .over {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fooder .left {
+    padding: 40px 80px;
+
+}
+
+.fooder .left h3 {
+    font-size: 16px;
+    color: white;
+    line-height: 55px;
+    margin-left: 60px;
+
+}
+
+.fooder .left .list-1 {
+    float: left;
+}
+
+.fooder .left ul li {
+    font-size: 14px;
+    line-height: 30px;
+    color: #a3a3a3;
+    margin-left: 30px;
+}
+
+.fooder .right .logo {
+    float: right;
+}
+
+.fooder .right .logo img {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.fooder .right .logo .ico-1 {
+    background: url(../img/anzhuo.png) no-repeat center center;
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+}
+
+.fooder .right .logo .ico-2 {
+    background: url(../img/iphone.png) no-repeat center center;
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+}
+
+.fooder .right .logo .ico-3 {
+    background: url(../img/weibo.png) no-repeat center center;
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+}
+
+.fooder .right .logo .ico-4 {
+    background: url(../img/weixin.png) no-repeat center center;
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+}
+
+.fooder .right {
+    padding-top: 45px;
+    padding-left: 25px;
+
+}
+
+
+
+
+.main .side {
+    width: 65px;
+    height: 237px;
+    position: fixed;
+    top: 102px;
+    right: 0;
+    background-color: white;
+    box-shadow: -2px 2px 4px rgba(2, 2, 2, .17);
+    z-index: 1;
+    padding-top: 10px;
+
+}
+
+.main .side .one {
+    width: 38px;
+    height: 37px;
+    border-bottom: 1px #8c8c8c solid;
+    margin: 0 auto;
+    padding-top: 13px;
+
+}
+
+.main .side em,
+b {
+    display: block;
+    font-style: normal;
+    line-height: 24px;
+    height: 24px;
+    margin: 0 auto;
+    width: 24px;
+    text-align: center;
+    border: 1px #8c8c8c solid;
+    border-radius: 50%;
+
+}
+
+.main .side b {
+    border: none;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #185b8f;
+    display: none;
+    margin-bottom: 2px;
+
+}
+
+.main .side .one:hover em {
+    display: none;
+}
+
+.main .side .one:hover b {
+    display: block;
+}
+
+.side .tow .code {
+    width: 160px;
+    height: 185px;
+
+    background-color: white;
+    position: absolute;
+    left: -160px;
+    bottom: 0px;
+    display: none;
+
+
+}
+
+.side .tow h3 {
+    width: 100%;
+    font-size: 14px;
+    color: #a3a3a3;
+    font-weight: normal;
+    line-height: 52px;
+    text-align: center;
+}
+
+.side .tow:hover .code {
+    display: block;
+}
+
+.side .tow img {
+    width: 110px;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    display: inline-block;
+    position: absolute;
+}

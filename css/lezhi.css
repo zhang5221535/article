@@ -1,0 +1,363 @@
+.hadder {
+
+    background: url(../img/520.png) no-repeat center;
+
+    width: 100%;
+    height: 945px;
+    background-size: cover;
+
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.nav {
+    height: 80px;
+
+}
+
+.nav img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+
+
+}
+
+.nav a {
+    line-height: 80px;
+    font-size: 14px;
+    margin-left: 38px;
+    color: white;
+}
+
+.nav em {
+    background: url(../img/lezhi-xiao.png) no-repeat center center;
+    width: 23px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 120px;
+
+
+}
+
+.nav span {
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+}
+
+/* 隐藏部分 */
+.center {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    margin-top: 250px;
+
+
+}
+
+.center h4 {
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+.center h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+}
+
+.center p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+
+/* 图片部分 */
+.img {
+    width: 1200px;
+
+}
+
+.img li {
+    float: left;
+    width: 240px;
+    margin: 50px 28px;
+
+}
+
+.img li img {
+    display: inline-block;
+    margin-left: 90px;
+    width: 45px;
+    height: 45px;
+}
+
+.img li h5,
+.img li p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+/* text部分 */
+.text {
+    width: 1200px;
+    margin-top: 50px;
+    height: 350px;
+    background-color: #d0d0d0;
+    margin: 60px auto;
+}
+
+.text .left img {
+    width: 540px;
+    height: 350px;
+    float: left;
+}
+
+.text .right {
+    float: right;
+    width: 540px;
+    height: 350px;
+    padding: 20px 55px;
+}
+
+.text .right h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+
+.text .right p {
+    text-indent: 2em;
+}
+
+/* box部分 */
+.icon {
+    font-size: 0px;
+}
+
+.box {
+    width: 295px;
+
+    padding: 60px 0;
+    display: inline-block;
+
+
+}
+
+.box .divBox {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.box .divBox h3 {
+    font-size: 34px;
+    line-height: 45px;
+    color: #303030;
+    font-weight: normal;
+    height: 45px;
+    float: right;
+
+}
+
+.box h3 img {
+    width: 45px;
+    height: 45px;
+
+
+}
+
+.box p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.icon .box {
+    float: left;
+}
+
+/* 大背景部分 */
+.bigBox {
+    background: url(../img/小背景.png) no-repeat center rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+body .big {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 190px;
+    height: 300px;
+}
+
+
+
+body .big a {
+    font-size: 15px;
+    border: 1px white solid;
+    display: inline-block;
+    color: white;
+    padding: 13px 15px;
+    border-radius: 4px;
+    background-color: black;
+
+}
+
+body .big a:hover {
+    border: cornflowerblue 1px solid;
+    color: cornflowerblue;
+}
+
+/* 博客部分 */
+.blogs {
+    height: 100px;
+    padding-top: 100px;
+}
+
+.blogs h2,
+p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.blogs h2 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.blogs p {
+    color: #606060;
+    margin-bottom: 100px;
+}
+
+
+/* ai部分 */
+.ai {
+    width: 360px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 200px;
+}
+
+.ai img {
+    width: 360px;
+    height: 204px;
+}
+
+.ai h3 {
+    /* 多余部分用...显示 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 35px;
+    font-size: 20px;
+
+}
+
+.ai p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.ai a {
+    color: #3399e8;
+}
+
+/* 特点部分 */
+
+
+
+
+
+
+
+.feature .left,
+.feature .right {
+    float: left;
+}
+
+.feature .left img {
+    width: 360px;
+    height: 452px;
+}
+
+.feature .right h3 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    width: 750px;
+}
+
+.feature .right .bottom {
+    width: 800px;
+}
+
+.feature .right .bottom ul {
+    width: 360px;
+    float: left;
+}
+
+.feature .right .bottom .cry em {
+    background: url(../img/lezhi-3.png) no-repeat center center;
+    width: 53px;
+    height: 53px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ebebeb;
+    margin-top: 30px;
+}
+
+.feature .right .bottom .cry .text-1 {
+    width: 270px;
+    height: 107px;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.feature .right .bottom .cry .text-1 p {
+    text-align: left;
+}
+
+.feature .right .bottom .cry .text-1 .text-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feature .right .bottom .cry .text-1 .text-3 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #606060;
+    line-height: 24px;
+}
+
+.right .bottom ul li {
+    margin: 10px 10px;
+}
+
+
+/* 简单做一下先 */
